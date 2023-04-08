@@ -75,7 +75,7 @@ btnHold.addEventListener('click', function () { // кнопка оставить
 
         // 2. If total score of active player >= 100, active player won, if not - switch active player 
 
-        if (totalScores[activePlayer] >= 20) {
+        if (totalScores[activePlayer] >= 100) {
             isPlaying = false; // когда выполнится условие, то isPlaying станет false и две кнопки перестанут работь
             document.querySelector(`.player--${activePlayer}`).classList.add('player--winner'); // при выигрыше изобразится данный класс
             document.querySelector(`.player--${activePlayer}`).classList.remove('player--active'); // при выигрыше удалится данный класс

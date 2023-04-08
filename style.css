@@ -24,7 +24,7 @@ body {
 main {
   position: relative;
   width: 100rem;
-  /* height: 60rem; */
+  height: 60rem;
   background-color: rgba(255, 255, 255, 0.35);
   backdrop-filter: blur(200px);
   filter: blur();
@@ -32,8 +32,10 @@ main {
   border-radius: 9px;
   overflow: hidden;
   display: flex;
-  flex-wrap: wrap;
+  /* flex-wrap: wrap; */
 }
+
+
 
 .player {
   flex: 50%;
@@ -43,6 +45,8 @@ main {
   align-items: center;
   transition: all 0.75s;
 }
+
+
 
 /* Elements */
 .name {
@@ -65,9 +69,11 @@ main {
 .player--active {
   background-color: rgba(255, 255, 255, 0.4);
 }
+
 .player--active .name {
   font-weight: 700;
 }
+
 .player--active .score {
   font-weight: 400;
 }
@@ -81,6 +87,7 @@ main {
   opacity: 0.8;
   border-radius: 9px;
   color: #fff;
+  height: 55%;
   width: 65%;
   padding: 2rem;
   text-align: center;
@@ -131,9 +138,11 @@ main {
 .btn--new {
   top: 3rem;
 }
+
 .btn--roll {
   top: 40rem;
 }
+
 .btn--hold {
   top: 46rem;
 }

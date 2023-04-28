@@ -10,8 +10,8 @@
 @media (max-width: 767px) {
     body {
 
-        height: 85vh;
-
+        height: 90vh;
+        box-shadow: 0 6rem 17rem #e2b810;
     }
 
     main {

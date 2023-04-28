@@ -10,7 +10,7 @@
 @media (max-width: 767px) {
     main {
         width: 79%;
-        height: 95%;
+        height: 88%;
         flex-direction: column;
     }
 }

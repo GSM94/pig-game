@@ -21,31 +21,36 @@
     }
 
     .player {
-        padding: 0;
-        padding-top: 10px;
-        gap: 15px;
+        padding: 10px 0 42px 0;
+        /* padding-top: 10px; */
+        gap: 5px;
+        justify-content: flex-end;
     }
 
     .player-reverse {
+        padding: 45px 0 10px 0;
         display: flex;
         flex-direction: column-reverse;
     }
 
-    .current {
-
-        width: 47%;
-  
+    .name {
+        font-size: 3rem;
     }
-
+    
     .score {
-
         margin-bottom: 0;
+        font-size: 6rem;
+    }
+    
+    .current {
+        width: 33%;
     }
 
     .dice {
 
         left: 50%;
-        top: -12%;
+        top: -10%;
+        height: 8rem;
 
     }
 
@@ -56,17 +61,17 @@
 
     .btn--new {
         top: -96%;
-        left: 17%;
+        left: 49%;
     }
 
     .btn--roll {
-        top: -10%;
+        top: 80%;
         left: 84%;
         width: 150px;
     }
 
     .btn--hold {
-        top: -7%;
+        top: 83%;
         left: 16%;
     }
 }

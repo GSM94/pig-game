@@ -1,4 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Play&display=swap');
+
 * {
   margin: 0;
   padding: 0;
@@ -22,6 +23,8 @@ body {
 
 /* Layout */
 main {
+  margin-left: calc(50% - 800px);
+  margin-right: calc(50% - 800px);
   position: relative;
   width: 100rem;
   height: 60rem;
@@ -32,10 +35,7 @@ main {
   border-radius: 9px;
   overflow: hidden;
   display: flex;
-  /* flex-wrap: wrap; */
 }
-
-
 
 .player {
   flex: 50%;
@@ -45,8 +45,6 @@ main {
   align-items: center;
   transition: all 0.75s;
 }
-
-
 
 /* Elements */
 .name {
@@ -87,7 +85,6 @@ main {
   opacity: 0.8;
   border-radius: 9px;
   color: #fff;
-  height: 55%;
   width: 65%;
   padding: 2rem;
   text-align: center;
@@ -148,7 +145,7 @@ main {
 }
 
 .btn:active {
-  transform: translate(-110%, 2px);
+  transform: translate(-50%, 3px);
   box-shadow: 0 1rem 2rem rgba(0, 0, 0, 0.15);
 }
 
@@ -165,7 +162,7 @@ main {
 }
 
 .player--winner {
-  background-color: #0fa802;
+  background-color: #2f2f2f;
 }
 
 .player--winner .name {

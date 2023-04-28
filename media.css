@@ -8,9 +8,26 @@
 }
 
 @media (max-width: 767px) {
+    body {
+
+        height: 90vh;
+
+      }
     main {
         width: 79%;
         height: 88%;
         flex-direction: column;
+    }
+
+    .dice {
+
+        left: 82%;
+        top: 43%;
+
+    }
+
+    .btn {
+        left: 21%;
+
     }
 }

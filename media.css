@@ -9,8 +9,8 @@
 
 @media (max-width: 767px) {
     main {
-        width: 41rem;
-        height: 92rem;
+        width: 79%;
+        height: 95%;
         flex-direction: column;
     }
 }

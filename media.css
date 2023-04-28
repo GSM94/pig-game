@@ -44,8 +44,13 @@
     
     .current {
         width: 33%;
+        padding: 1rem;
     }
 
+    .current-label {
+        margin-bottom: 3px;
+       
+    }
     .dice {
 
         left: 50%;
@@ -60,18 +65,18 @@
     }
 
     .btn--new {
-        top: -96%;
+        top: -99%;
         left: 49%;
     }
 
     .btn--roll {
         top: 80%;
-        left: 84%;
+        left: 78%;
         width: 150px;
     }
 
     .btn--hold {
         top: 83%;
-        left: 16%;
+        left: 22%;
     }
 }

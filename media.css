@@ -16,16 +16,26 @@
 
     main {
         width: 79%;
-        height: 88%;
+        height: 78%;
         flex-direction: column;
     }
 
     .player {
-
-        padding: 10px;
+        padding: 0;
+        padding-top: 10px;
         gap: 15px;
     }
 
+    .player-reverse {
+        display: flex;
+        flex-direction: column-reverse;
+    }
+
+    .current {
+
+        width: 47%;
+  
+    }
 
     .score {
 
@@ -34,13 +44,29 @@
 
     .dice {
 
-        left: 82%;
-        top: 43%;
+        left: 50%;
+        top: -12%;
 
     }
 
     .btn {
         left: 21%;
+        font-size: 14px;
+    }
 
+    .btn--new {
+        top: -96%;
+        left: 17%;
+    }
+
+    .btn--roll {
+        top: -10%;
+        left: 84%;
+        width: 150px;
+    }
+
+    .btn--hold {
+        top: -7%;
+        left: 16%;
     }
 }

@@ -12,11 +12,24 @@
 
         height: 90vh;
 
-      }
+    }
+
     main {
         width: 79%;
         height: 88%;
         flex-direction: column;
+    }
+
+    .player {
+
+        padding: 10px;
+        gap: 15px;
+    }
+
+
+    .score {
+
+        margin-bottom: 0;
     }
 
     .dice {
